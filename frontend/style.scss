@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #f7e4d4;
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: "EB Garamond", sans-serif;
+  }
+
+  h1 {
+    font-size: 48px;
+    color: #467745;
+    font-weight: 300
+}
+#targy {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #467745;
+    width: 480px; 
+    height: 64px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 20px;
+}
+#targy::placeholder {
+    color: #467745;
+  }
+#megjegyzes {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #467745;
+    width: 480px; 
+    height: 120px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#megjegyzes::placeholder {
+    color: #467745;
+    }   
+
+#pipa {
+    width: 20px; 
+    height: 20px;
+    border: none;
+}
+.mentesgomb {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 280px;
+height: 80px;
+margin-top: 20px;
+border-radius: 12%;
+background-color: #467745;
+font-family: "EB Garamond", sans-serif;
+font-size: 21px;   
+}
+.mentes {
+    background-color: inherit;
+    color: #f7e4d4;
+    letter-spacing: 0.2em;
+    border: none;
+    font-family: "EB Garamond", sans-serif;
+    font-size: 21px;   
+}
+@media only screen and (max-width: 520px) {
+    h1 {
+      align-items: left;
+    }
+  }
+  
+  @media only screen and (max-width: 520px) {
+    #targy {
+      width: 100%-40px;
+      padding-left: 20px;
+    }
+  }
